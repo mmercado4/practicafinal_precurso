@@ -19,16 +19,16 @@ h3 {
 
 p {
     font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 h1 {
-    font-size: 34px;
+    font-size: 1.7rem;
 }
 
 h2 {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 h3 {
@@ -139,7 +139,7 @@ hr {
 .enlaces-cabecera li a {
     padding-right: 23px;
     padding-left: 23px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .enlaces-cabecera li:last-of-type a {
@@ -165,11 +165,13 @@ hr {
 
 .welcome h1 {
     padding-bottom: 20px;
+    color: white;
 }
 
-.welcome h1,
-h2 {
+.welcome h2 {
+    font-size: 1rem;
     color: white;
+    font-weight: 400;
 }
 
 .vistazo {
@@ -198,7 +200,7 @@ h2 {
     margin-right: auto;
 }
 
-.story h1 {
+.story h2 {
     padding: 40px 0 0 0;
 }
 
@@ -368,7 +370,7 @@ form input {
     margin-top: 20px;
     font-family: 'PT Sans', sans-serif;
     color: #999999;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     border: none;
@@ -377,6 +379,7 @@ form input {
 
 form textarea {
     width: 100%;
+    border: black solid 1px;
 }
 
 .btn-enviar {
@@ -393,7 +396,7 @@ form label {
     margin-bottom: 0;
     font-family: 'PT Sans', sans-serif;
     color: #999999;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 20px;
@@ -401,11 +404,11 @@ form label {
 }
 
 #Mensaje {
-    border: solid #f2f2f2 2px;
+    border: solid #cccccc 1px;
     margin-top: 0;
     height: 250px;
     color: black;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -416,6 +419,7 @@ form label {
 .telefonos h2 {
     color: black;
     font-weight: 700;
+    font-size: 1rem;
 }
 
 .telefonos p {
